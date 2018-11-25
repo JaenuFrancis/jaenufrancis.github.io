@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jaenu Francis"
+title                    : ""
 title_separator          : "-"
 name                     : "Jaenu Francis"
 description              : "Tech Blog"
@@ -104,20 +104,21 @@ analytics:
 # Site Author
 author:
   name             : "Jaenu Francis"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  "/assets/images/@me.jpg"
   bio              : "Hi! I am a software engineer, web developer and, simply, freelancer with over 3 years of experience. i'm an javascript enthusiastic"
   location         : "Kochi,Kerala"
   email            : "jaenublaze@gmail.com"
+  twitter          : "JaenuFrancis"
   links:
-    -label: "Email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:jaenublaze@gmail.com
-    -label: "Website"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       url: "https://twitter.com/JaenuFrancis"
+      # url: "https://twitter.com"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -291,7 +292,7 @@ defaults:
       share: true
       related: true
 
-        # _posts
+  # _posts
   - scope:
       path: ""
       type: pages
